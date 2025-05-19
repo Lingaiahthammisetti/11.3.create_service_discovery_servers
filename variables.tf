@@ -6,12 +6,14 @@ variable "instances" {
     type     = map
     default = {
        ec2-sd-1     = "t3.micro"
-       #ec2-sd-2     = "t3.micro"
-       #ec2-sd-3     = "t3.micro"
+      #  ec2-sd-2     = "t3.micro"
+      #  ec2-sd-3     = "t3.micro"
+      #  ec2-sd-4     = "t3.micro"
+      #  ec2-sd-5     = "t3.micro"
     }
 }
 variable "zone_id" {
-    default = "Z08032413NTE19HSX8KA1"
+   default = "Z07608533HHBQHW47XU3F"
 }
 variable "domain_name" {
   default = "lingaiah.online"
